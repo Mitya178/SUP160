@@ -1,0 +1,4 @@
+Program Name,Program Desc,Cycle,Phase,,,,,,,,,,,,,,,,,,,,
+PROG_NAME,PROG_DESC,PROG_CYCLE,PROG_PHASE,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+Template Name,Template UUID,FB Inner Name,FB Type Name,FB Tag Name,FB Desc,Tag Group,Tag Level,Decimal Digits,Faceplate,Input Tag,Input Pin,Output Pin,Output Tag,Param Name,Param Value,Alias Param,Alias Tag,Macro Name,Macro Value,Original Remark,Remark,Original Logic Name,Logic Name

@@ -1,0 +1,16 @@
+Program Name,Program Desc,Cycle,Phase
+,,1,0
+
+Template Name,Template UUID,FB Inner Name,FB Type Name,FB Tag Name,FB Desc,Tag Group,Tag Level,Decimal Digits,Faceplate,Input Tag,Input Pin,Output Pin,Output Tag,Param Name,Param Value,Alias Param,Alias Tag,Macro Name,Macro Value,Original Remark,Remark,Original Logic Name,Logic Name
+MOT14_0012_1050,ec540ac7-17f8-4fba-970e-b50b8c77221a,p0001,NOT,,,0,0,2,*,P3.PV,IN,,,,,,,,,Состояние,,NAME_LOOP
+,,,,,,,,,,,,,,,,,,,,Блокировка
+,,p0002,NOT,,,0,0,2,*,P5.P6,IN,,,,,,,,,Местный
+,,,,,,,,,,,,,,,,,,,,Команда Пуск
+,,p0003,MOTOR,P1,P2,0,0,2,*,P9.P10,STOPRM,STOP,P12.IN,TPW,10.00,,,MANRUN,ПУСК,Команда Стоп
+,,,,,,,,,,P9.P10,RUNPRM,RUN,P11.IN,TOC,30.00,,,MANSTOP,СТОП,Электрическая ошибка
+,,,,,,,,,,P7.P8,FAULT,,,TPLS,20.00,,,RUNPRM,РАЗР ПУСК,Готовность
+,,,,,,,,,,P4.VALUE,EMSTOP,,,AUTOCLR,OFF,,,STOPRM,РАЗР СТОП
+,,,,,,,,,,P3.PV,RUNSTA,,,OUTTYPE,P13
+,,,,,,,,,,P4.VALUE,PROTECT,,,SETTYPE,2
+
+

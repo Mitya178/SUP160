@@ -1,0 +1,22 @@
+Program Name,Program Desc,Cycle,Phase
+,,1,0
+
+Template Name,Template UUID,FB Inner Name,FB Type Name,FB Tag Name,FB Desc,Tag Group,Tag Level,Decimal Digits,Faceplate,Input Tag,Input Pin,Output Pin,Output Tag,Param Name,Param Value,Alias Param,Alias Tag,Macro Name,Macro Value,Original Remark,Remark,Original Logic Name,Logic Name
+MLD1_1110_0000,4f3f4a7b-f775-4e5e-aee2-66f44223aa96,p0002,ASW,,,,,2,,P4.PV,IN2,,,IN1,P8,,,,,Feedback от AO сигнала,,NAME_LOOP
+,,,,,,,,,,P5.P6,SW,,,,,,,,,Местный режим
+,,,,,,,,,,,,,,,,,,,,Обратная связь
+,,p0003,OR,,,0,0,2,*,P7.VALUE,IN2,,,,,,,,,Блокировка
+,,,,,,,,,,P5.P6,IN1,,,,,,,,,Регулирование
+
+,,p0001,MANUAL,P1,P2,0,0,2,*,P3.BKOUT,BKIN,MV,P3.IN,MVH,P9
+,,,,,,,,,,P3.BKOUTERR,BKINERR,,,MVL,P10
+,,,,,,,,,,P4.PV,PV,,,MVSCH,P9
+,,,,,,,,,,,,,,MVSCL,P10
+,,,,,,,,,,,,,,PVSCH,P9
+,,,,,,,,,,,,,,PVSCL,P10
+,,,,,,,,,,,,,,MVEU,P11
+,,,,,,,,,,,,,,MVDLEN,P12
+,,,,,,,,,,,,,,PVEU,P11
+,,,,,,,,,,,,,,PVDLEN,P12
+
+

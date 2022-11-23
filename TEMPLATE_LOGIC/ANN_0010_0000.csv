@@ -1,0 +1,10 @@
+Program Name,Program Desc,Cycle,Phase
+,,1,0
+
+Template Name,Template UUID,FB Inner Name,FB Type Name,FB Tag Name,FB Desc,Tag Group,Tag Level,Decimal Digits,Faceplate,Input Tag,Input Pin,Output Pin,Output Tag,Param Name,Param Value,Alias Param,Alias Tag,Macro Name,Macro Value,Original Remark,Remark,Original Logic Name,Logic Name
+ANN_0010_0000,eeebd4d0-833b-4782-bdac-c211be8c7a0e,p0001,G_ANN,P1,P2,0,0,2,*,P3.VALUE,IN,,,DELAY,P5,,,,,,,NAME_LOOP
+,,,,,,,,,,,,,,TYPE_ALM,P4
+,,,,,,,,,,,,,,ENALM,"ANN|OG|IL
+Низкий|Логгирование|Низкий"
+
+

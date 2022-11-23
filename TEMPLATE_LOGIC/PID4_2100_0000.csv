@@ -1,0 +1,71 @@
+Program Name,Program Desc,Cycle,Phase
+,,1,0
+
+Template Name,Template UUID,FB Inner Name,FB Type Name,FB Tag Name,FB Desc,Tag Group,Tag Level,Decimal Digits,Faceplate,Input Tag,Input Pin,Output Pin,Output Tag,Param Name,Param Value,Alias Param,Alias Tag,Macro Name,Macro Value,Original Remark,Remark,Original Logic Name,Logic Name
+PID4_2100_0000,1072ae29-1dc1-4e0f-b5ab-a7d044124fbd,p0005,PIDEX,P1,P2,0,0,2,*,P9.PV,PV,,,TV,P15,,,,,Блокировка,,NAME_LOOP
+,,,,,,,,,,P9.ERR,PVERR,,,SWPN,P18,,,,,Датчик 1
+,,,,,,,,,,P12.VALUE,SWTR,,,MVH,P19,,,,,Обрыв датчика 2
+,,,,,,,,,,,,,,MVL,P20,,,,,Блокировка
+,,,,,,,,,,,,,,SVH,P21,,,,,Датчик 2
+,,,,,,,,,,,,,,SVL,P22,,,,,Обрыв датчика 2
+,,,,,,,,,,,,,,DMVLIM,P23,,,,,Feedback от AO сигнала
+,,,,,,,,,,,,,,PVHH,P24,,,,,Блокировка.
+,,,,,,,,,,,,,,PVH,P25,,,,,Регулирование
+,,,,,,,,,,,,,,PVL,P26
+,,,,,,,,,,,,,,PVLL,P27
+,,,,,,,,,,,,,,PVHYS,P28
+,,,,,,,,,,,,,,ENALM,"PVHH|PVLL|PVH|PVL|REVSCL|DMVH|DMVL|CFGERR|PVERR|SVERR|TVERR|OAERR
+Высокий|Высокий|Низкий|Низкий|Неисправность|Низкий|Низкий|Неисправность|Неисправность|Неисправность|Неисправность|Неисправность"
+,,,,,,,,,,,,,,MODE_OPT,P29
+,,,,,,,,,,,,,,MVSCH,P19
+,,,,,,,,,,,,,,MVSCL,P20
+,,,,,,,,,,,,,,SVSCH,P21
+,,,,,,,,,,,,,,SVSCL,P22
+,,,,,,,,,,,,,,SVEU,P30
+,,,,,,,,,,,,,,MVEU,P31
+,,,,,,,,,,,,,,SVDLEN,P32
+,,,,,,,,,,,,,,MVDLEN,P33
+
+,,p0002,PIDEX,P3,P4,0,0,2,*,P10.ERR,PVERR,,,TV,P16
+,,,,,,,,,,P13.VALUE,SWTR,,,SWPN,P34
+,,,,,,,,,,P10.PV,PV,,,MVH,P35
+,,,,,,,,,,,,,,MVL,P36
+,,,,,,,,,,,,,,SVH,P37
+,,,,,,,,,,,,,,SVL,P38
+,,,,,,,,,,,,,,DMVLIM,P39
+,,,,,,,,,,,,,,PVHH,P40
+,,,,,,,,,,,,,,PVH,P41
+,,,,,,,,,,,,,,PVL,P42
+,,,,,,,,,,,,,,PVLL,P43
+,,,,,,,,,,,,,,PVHYS,P44
+,,,,,,,,,,,,,,ENALM,"PVHH|PVLL|PVH|PVL|REVSCL|DMVH|DMVL|CFGERR|PVERR|SVERR|TVERR|OAERR
+Высокий|Высокий|Низкий|Низкий|Неисправность|Низкий|Низкий|Неисправность|Неисправность|Неисправность|Неисправность|Неисправность"
+,,,,,,,,,,,,,,MODE_OPT,P45
+,,,,,,,,,,,,,,MVSCH,P35
+,,,,,,,,,,,,,,MVSCL,P36
+,,,,,,,,,,,,,,SVSCH,P37
+,,,,,,,,,,,,,,SVSCL,P38
+,,,,,,,,,,,,,,SVEU,P46
+,,,,,,,,,,,,,,MVEU,P31
+,,,,,,,,,,,,,,SVDLEN,P47
+,,,,,,,,,,,,,,MVDLEN,P33
+
+,,p0004,TWOSELX,P5,P6,0,0,2,*,,,,,DL,P51
+,,,,,,,,,,,,,,MODE,P48
+,,,,,,,,,,,,,,SCH,P49
+,,,,,,,,,,,,,,SCL,P50
+,,,,,,,,,,,,,,EU,P31
+,,,,,,,,,,,,,,DLEN,P33
+
+,,p0001,MANUAL,P7,P8,0,0,2,*,P11.BKOUT,BKIN,MV,P11.IN,TV,P17
+,,,,,,,,,,P11.BKOUTERR,BKINERR,,,MVH,P52
+,,,,,,,,,,P14.VALUE,SWTR,,,MVL,P53
+,,,,,,,,,,,,,,MODE_OPT,P54
+,,,,,,,,,,,,,,MVSCH,P52
+,,,,,,,,,,,,,,MVSCL,P53
+,,,,,,,,,,,,,,MVEU,P55
+,,,,,,,,,,,,,,MVDLEN,P56
+,,,,,,,,,,,,,,PVEU,P55
+,,,,,,,,,,,,,,PVDLEN,P56
+
+
